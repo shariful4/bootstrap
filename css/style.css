@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.head-content {
+    padding: 170px 0px;
+    text-align: center;
+}
+
+.head-content p {
+    color: #fff;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.head-content span {
+    width: 100px;
+    height: 3px;
+    display: block;
+    background: red;
+    margin: auto;
+}
+
+.head-content h1 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.learn-more {
+    text-decoration: none;
+    background: red;
+    padding: 12px 35px;
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.learn-more:hover {
+    text-decoration: none;
+    background: rgba(255, 0, 0, 0.747);
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+.navbar-brand h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 27px;
+}
+
+.navbar-brand span {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* header part end here */
+.testimonials {
+    background: #F4F5F9;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.testimonials h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: #000000b8;
+}
+
+.testimonials p {
+    color: #000000b8;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*testimonials part end here*/
+.event {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.event h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.event span {
+    width: 77px;
+    height: 3px;
+    display: block;
+    background: red;
+    margin: auto;
+    margin-bottom: 23px;
+    margin-top: 16px;
+}
+
+.event-content {}
+
+.event-content img {
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.event-content h2 {
+    margin-top: 15px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.btn-event {
+    font-size: 18px;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.btn-event:hover {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.678);
+}
+
+.btn-explore {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.btn-explore:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.event-content p {
+    font-size: 18px;
+    color: #000;
+}
+
+/* event part end here*/
+
+.explore {
+    background-image: url(../images/rock.jpg);
+    padding: 160px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000bd;
+    background-blend-mode: color;
+    background-attachment: fixed;
+}
+
+
+.explore-content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.explore-content span {
+    width: 77px;
+    height: 3px;
+    display: block;
+    background: red;
+    margin-bottom: 11px;
+    margin-top: 16px;
+}
+
+.explore-content p {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* tour section start here */
+.tour {
+    padding: 90px 0px;
+}
+
+.tour-content {
+    padding: 0px 8px;
+}
+
+.tour-content h2 {
+    text-transform: uppercase;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.tour-content span {
+    width: 77px;
+    height: 3px;
+    display: block;
+    background: red;
+    margin-bottom: 11px;
+    margin-top: 16px;
+}
+
+.tour-content p {
+    font-size: 19px;
+}
+
+.tour-content img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.small {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.large {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Footer part start here */
+footer {
+    background: #000000ed;
+}
+
+.footer-content {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.footer-content h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+@media all and (max-width:320px) {
+    .head-content p {
+
+        font-size: 25px;
+    }
+
+    .head-content span {
+        width: 80px;
+
+    }
+
+    .head-content h1 {
+        font-size: 30px;
+        margin-top: 10px;
+
+
+    }
+
+    .learn-more {
+        padding: 10px 30px;
+        font-size: 15px;
+
+    }
+
+    /*header part end here */
+
+    .event h1 {
+        font-size: 30px;
+    }
+
+
+    .event-content h2 {
+
+        font-size: 25px;
+    }
+
+    .event-content p {
+        font-size: 16px;
+        color: #000;
+    }
+
+    /*event part end here */
+    .explore-content h2 {
+
+        font-size: 25px;
+
+    }
+
+    .explore-content p {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    /* tour section start here */
+
+    .tour-content h2 {
+
+        font-size: 30px;
+
+    }
+
+    .tour-content p {
+        font-size: 16px;
+    }
+
+    .small {
+        height: 200px;
+    }
+
+    .large {
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:576px) {
+    .head-content p {
+
+        font-size: 30px;
+    }
+
+    .head-content span {
+        width: 80px;
+
+    }
+
+    .head-content h1 {
+        font-size: 40px;
+        margin-top: 10px;
+
+
+    }
+
+    .learn-more {
+        padding: 10px 30px;
+        font-size: 15px;
+
+    }
+
+    /*header part end here */
+
+    .event h1 {
+        font-size: 30px;
+    }
+
+
+    .event-content h2 {
+
+        font-size: 25px;
+    }
+
+    .event-content p {
+        font-size: 16px;
+        color: #000;
+    }
+
+    /*event part end here */
+    .explore-content h2 {
+
+        font-size: 25px;
+
+    }
+
+    .explore-content p {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    /* tour section start here */
+
+    .tour-content h2 {
+
+        font-size: 30px;
+
+    }
+
+    .tour-content p {
+        font-size: 16px;
+    }
+
+    .small {
+        height: 300px;
+    }
+
+    .large {
+        height: 300px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:768px) {
+    .head-content p {
+
+        font-size: 40px;
+    }
+
+    .head-content span {
+        width: 80px;
+
+    }
+
+    .head-content h1 {
+        font-size: 55px;
+        margin-top: 10px;
+
+
+    }
+
+    .learn-more {
+        padding: 10px 30px;
+        font-size: 15px;
+
+    }
+
+    /*header part end here */
+
+    .event h1 {
+        font-size: 45px;
+    }
+
+
+    .event-content h2 {
+
+        font-size: 25px;
+    }
+
+    .event-content p {
+        font-size: 16px;
+        color: #000;
+    }
+
+    /*event part end here */
+    .explore-content h2 {
+
+        font-size: 35px;
+
+    }
+
+    .explore-content p {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    /* tour section start here */
+
+    .tour-content h2 {
+
+        font-size: 30px;
+
+    }
+
+    .tour-content p {
+        font-size: 16px;
+    }
+
+    .small {
+        height: 300px;
+    }
+
+    .large {
+        height: 300px;
+    }
+
+}
